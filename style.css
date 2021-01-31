@@ -108,7 +108,7 @@ body {
         background-size: cover; }
         body main .interest article:first-child:hover {
           transform: scale(0.9); 
-          transition-duration: 1s;
+          transition-duration: 0.9s;
         }
       body main .interest article:nth-child(2) {
         grid-area: 1/2/2/4;
@@ -117,7 +117,7 @@ body {
         background-size: cover; }
         body main .interest article:nth-child(2):hover {
           transform: scale(0.9); 
-          transition-duration: 1s; 
+          transition-duration: 0.9s; 
         }
       body main .interest article:nth-child(3) {
         grid-area: 2/2/3/4;
@@ -126,7 +126,7 @@ body {
         background-size: cover; }
         body main .interest article:nth-child(3):hover {
           transform: scale(0.9); 
-          transition-duration: 1s;
+          transition-duration: 0.9s;
         }
       body main .interest article:nth-child(4) {
         grid-area: 1/4/3/5;
@@ -135,7 +135,7 @@ body {
         background-size: cover; }
         body main .interest article:nth-child(4):hover {
           transform: scale(0.9); 
-          transition-duration: 1s;
+          transition-duration: 0.9s;
         }
     body main .projects {
       padding: 20px 0px; }
