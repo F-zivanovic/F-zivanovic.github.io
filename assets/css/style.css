@@ -57,6 +57,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: row;
     flex-wrap: wrap; }
     @media (max-width: 768px) {
       header nav {
@@ -141,7 +142,7 @@ header {
     header hgroup article:last-child {
       display: flex;
       justify-content: center;
-      align-items: flex-end;
+      align-items: center;
       flex-direction: column;
       flex-wrap: nowrap; }
       header hgroup article:last-child a {
@@ -233,7 +234,8 @@ SKILLS
     flex-wrap: wrap; }
     .skills .row article {
       flex: 0 0 20%;
-      padding: 10px 0px; }
+      padding: 10px 0px;
+      text-align: center; }
       @media (max-width: 768px) {
         .skills .row article {
           flex: 0 0 30%; } }
