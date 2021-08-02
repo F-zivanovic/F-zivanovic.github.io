@@ -1,0 +1,23 @@
+@mixin flex ($justify, $align, $direction, $wrap) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+}
+
+@mixin btn {
+    background: none;
+    border: 1px solid $white;
+    padding: 15px 50px;
+    font-size: 1rem;
+    margin-top: 30px;
+    border-radius: 30px;
+    color: $white;
+    
+     &:hover{
+        transition: $transition;
+        cursor: pointer;
+        border: 1px solid $gray;
+     } 
+}
