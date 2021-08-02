@@ -73,10 +73,7 @@ header{
 
     nav{
         padding: 30px 0px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
+        @include flex(space-between, center, row, wrap);
         @media(max-width:768px){
             flex-direction: column;
         }
